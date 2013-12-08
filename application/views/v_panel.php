@@ -9,10 +9,13 @@
 
 	<link rel="stylesheet" href="<?php echo base_url(); ?>resource/css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>resource/css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>resource/css/uploadify.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>resource/css/style.css">
 
 	<script src="<?php echo base_url(); ?>resource/js/jquery.min.js"></script>
 	<script src="<?php echo base_url(); ?>resource/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>resource/js/jquery.form.js"></script>
+	<script src="<?php echo base_url(); ?>resource/js/jquery.uploadify.min.js"></script>
 	
 	<script> base_url="<?php echo base_url();?>"</script>
 
