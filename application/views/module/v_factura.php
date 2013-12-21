@@ -2,7 +2,7 @@
 	<div><h3>Buscar Nota</h3></div>
 	<div class="sec_form">
 		<form class="form-search">
-			<input type="text" class="input-medium search-query">
+			<input type="text" class="input-medium search-query" placeholder="Buscar">
 			<button type="submit" class="btn">Search</button>
 		</form>
 				
@@ -23,8 +23,7 @@
 				<td>Vicente Rojas Diego</td>
 				<td>18/12/2013</td>
 				<td>
-					<a href="" class="btn"><i class="icon-edit"></i></a>
-					<a href="" class="btn btn-danger"><i class="icon-remove icon-white"></i></a>
+					<a href="" class="btn"><i class="icon-share"></i>Agregar</a>
 				</td>
 			</tr>
 		</tbody>

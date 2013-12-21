@@ -39,8 +39,7 @@
 				<td>0.1</td>
 				<td>150</td>
 				<td>
-					<a href="" class="btn"><i class="icon-edit"></i></a>
-					<a href="" class="btn btn-danger"><i class="icon-remove icon-white"></i></a>
+					<a href="" class="btn"><i class="icon-edit"></i>Editar</a>
 				</td>
 			</tr>
 		</tbody>

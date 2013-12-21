@@ -41,6 +41,10 @@
 		      </select>
 		    </div>
 		  </div>
+		  <div class="control-group">
+		   	<input type="reset" value="Cancelar" class="btn">
+		    <input type="submit" class="btn btn-primary" value="Guardar">
+		  </div>
 	  </div>
 	  <div class="sec">
 	  	<div class="control-group">
@@ -68,39 +72,16 @@
 		    </div>
 		  </div>
 		  <div class="control-group">
-		    <label class="control-label" for="inputPassword">Proveedor</label>
+		    <label class="control-label" for="inputPassword">Tipo de Proveedor</label>
 		    <div class="controls">
 		      <select name="" id="">
 		      	<option value="0">-- Seleecione una --</option>
-		      	<option value="1">1</option>
-		      	<option value="2">3</option>
+		      	<option value="1">Independiente</option>
+		      	<option value="2">Comunidad</option>
 		      </select>
 		    </div>
 		  </div>		  
 	  </div>
 	</form>
-	<table class="table table-striped table-bordered">
-		<thead>
-			<tr>
-				<th>Dni</th>
-				<th>Proveedor</th>
-				<th>Comunidad</th>
-				<th>Direccion</th>
-				<th>Acciones</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>72916160</td>
-				<td>Vicente Rojas</td>
-				<td>Huacho</td>
-				<td>El olivar</td>
-				<td>
-					<a href="" class="btn"><i class="icon-edit"></i></a>
-					<a href="" class="btn btn-danger"><i class="icon-remove icon-white"></i></a>
-				</td>
-			</tr>
-		</tbody>
-
-	</table>	
+	<?php $this->load->view('module/list/l_table_proveedor'); ?>	
 </div>
