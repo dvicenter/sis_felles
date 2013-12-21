@@ -4,24 +4,23 @@
         <a href="<?php echo base_url();?>"><i class="icon-home"></i>Inicio</a>
     </li>
 </ul>
-<ul class="nav nav-list">
+<ul class="nav nav-list nav_browser">
   <li class="nav-header">Usuario</li>
-  <li id="n_user"><a href="#">Perfil de Usuario</a></li>
+  <li id="n_user"><a href="javascript:;">Perfil de Usuario</a></li>
   <li class="nav-header">Mantenimiento</li>
-  <li id="n_proveedor"><a href="#">Proveedor</a></li>
-  <li id="n_cliente"><a href="#">Cliente</a></li>
-  <li id="n_acopiador"><a href="#">Acopiador</a></li>
-  <li id="n_productos"><a href="#">Productos</a></li>
+  <li id="n_proveedor"><a href="javascript:;">Proveedor</a></li>
+  <li id="n_acopiador"><a href="javascript:;">Acopiador</a></li>
+  <li id="n_producto"><a href="javascript:;">Producto</a></li>
   <li class="nav-header">Notas</li>
-  <li id="n_r_nota"><a href="#">Registrar Nota</a></li>
-  <li id="n_a_nota"><a href="#">Actualizar Nota</a></li>
+  <li id="n_r_nota"><a href="javascript:;">Registrar Nota</a></li>
+  <li id="n_a_nota"><a href="javascript:;">Actualizar Nota</a></li>
   <li class="nav-header">Facturacion</li>
-  <li id="n_a_precio"><a href="#">Actualizar Precios</a></li>
-  <li id="n_boleta"><a href="#">Boleta</a></li>
-  <li id="n_factura"><a href="#">Factura</a></li>
+  <li id="n_a_precio"><a href="javascript:;">Actualizar Precios</a></li>
+  <li id="n_boleta"><a href="javascript:;">Boleta</a></li>
+  <li id="n_factura"><a href="javascript:;">Factura</a></li>
   <li class="nav-header">Ayuda al usuario</li>
-  <li id="n_manual"><a href="#">Manual de Usuario</a></li>
-  <li id="n_guia"><a href="#">Guia de Instrucciones</a></li>
+  <li id="n_manual"><a href="javascript:;">Manual de Usuario</a></li>
+  <li id="n_guia"><a href="javascript:;">Guia de Instrucciones</a></li>
 </ul>
 	<!-- <ul class="nav nav-list">
     	<li class="active">

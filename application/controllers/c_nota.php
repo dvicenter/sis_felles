@@ -7,13 +7,21 @@ class C_nota extends CI_Controller {
     {	parent::__construct();
 	    $this->load->helper('url');
 	    $this->load->model('mantenimiento/m_producto');
+	    $this->load->model('m_panel');
 	    $this->load->library('session');
     }
 
-	public function index()
+	public function nota()
 	{   
 		$DATA['productos'] = $this->m_producto->getProducto();
 		$this->load->view('module/v_register_nota',$DATA);
+	}
+
+	public function a_nota()
+	{   
+		$DATA['productos'] = $this->m_producto->getProducto();
+		$DATA['comunidades'] = $this->m_panel->getComunidad();
+		$this->load->view('module/v_actual_nota',$DATA);
 	}
 
 	function cargar_xls()

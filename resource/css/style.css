@@ -25,11 +25,11 @@ header{background: #ddd;height: 100px;}
 	/* END BROWSER */
 
 	/* START CONTENT */
-.main_content{background: #eee;width: 81.63%;}
+.main_content{/*background: #eee;*/width: 81.63%;}
 
 		/* START REGISTRAR NOTA */
 #module_register_nota{padding: 20px;}
-#form_r_nota{ text-align: center;}
+
 
 		/* END REGISTRAR NOTA */
 
@@ -41,4 +41,59 @@ footer{position: relative;bottom: 0px;padding: 15px;background: #333;color: #fff
 	/* END FOOTER */
 
 
-/* END PANEL 
+/* END PANEL */
+
+
+/* START PROVEEDOR */
+
+#mod_proveedor{padding: 25px;}
+#mod_proveedor .sec{display: inline-block; vertical-align: top;}
+#mod_proveedor .table{width: 700px;}
+#mod_proveedor .form_proveedor{text-align: left;}
+#mod_proveedor .form_proveedor .controls{text-align: left;}
+
+/* END PROVEEDOR */
+
+/* START ACOPIADOR */
+
+#mod_acopiador{padding: 25px;}
+#mod_acopiador .sec{display: inline-block; vertical-align: top;}
+#mod_acopiador .table{width: 700px;}
+#mod_acopiador .form_proveedor{text-align: left;}
+#mod_acopiador .form_proveedor .controls{text-align: left;}
+
+/* END ACOPIADOR */
+
+/* START PRODUCTO */
+
+#mod_producto{padding: 25px;}
+#mod_producto .sec{display: inline-block; vertical-align: top;}
+#mod_producto .table{width: 700px;}
+#mod_producto .form_proveedor{text-align: left;}
+#mod_producto .form_proveedor .controls{text-align: left;}
+
+/* END PRODUCTO */
+
+/* START ACTUAL_NOTA*/
+#module_actual_nota{padding: 20px;}
+/* END ACTUAL_NOTA*/
+
+/* START ACTUAL PRECIO*/
+#module_actual_precio{padding: 20px;}
+#module_actual_precio .sec_form{display: inline-block;vertical-align: top; width: 30%;}
+#module_actual_precio table{width: 70%; margin: 0 auto;}
+/* END ACTUAL PRECIO*/
+
+
+/* START BOLETA*/
+#module_boleta{padding: 20px;}
+#module_boleta .sec_form{display: inline-block;vertical-align: top; width: 30%;}
+#module_boleta table{width: 70%; margin: 0 auto;}
+/* END BOLETA*/
+
+
+/* START Factura*/
+#module_factura{padding: 20px;}
+#module_factura .sec_form{display: inline-block;vertical-align: top; width: 30%;}
+#module_factura table{width: 70%; margin: 0 auto;}
+/* END Factura*/
